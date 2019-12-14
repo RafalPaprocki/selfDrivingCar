@@ -1,24 +1,25 @@
+import enum
 import io
 import socket
 import struct
 import cv2
 import numpy as np
-import enum
 from preprocessing import SignDetector
 import time
 
 from traffic_objects import Traffic
+signDetector = SignDetector('object-detection3.pbtxt',
+                            'sign_graph_rpi')
 
 
-class State(enum.Enum):
-   Go = 1
-   Stop = 2
-   Red_Light_stop = 3
-   Limit_40 = 4
+from commands import Commands
 
 
-signDetector = SignDetector('C:\\Users\\rafpa\Downloads\\models\\research\object_detection\\training/object-detection3.pbtxt',
-                            'C:\\Users\\rafpa\Downloads\\models\\research\object_detection\\sign_graph_rpi')
+def send_action(name):
+    connection.write(struct.pack('<L', len(name)))
+    connection.write(bytes(name.encode("utf-8")))
+    connection.flush()
+
 
 server_socket = socket.socket()
 server_socket.bind(('0.0.0.0', 8000))
@@ -39,7 +40,6 @@ try:
         image_stream.seek(0)
         img = cv2.imdecode(np.fromstring(image_stream.getvalue(), dtype=np.uint8), 1)
         predicted = signDetector.detect_objects(img)
-        # output_dict = show_inference(detection_model, img)
         if cv2.waitKey(1) & 0xFF == ord('r'):
             cv2.destroyAllWindows()
             break
@@ -51,28 +51,15 @@ try:
         fps += 1
 
         if predicted is not None:
-            eval("traffic." + predicted["label"] + "_action")()
-        elif distance < 10:
-            if traffic.state["red_light"]:
-                connection.write(struct.pack('<L', 4))
-                connection.write(b"stop")
-                connection.flush()
-            else:
-                connection.write(struct.pack('<L', 8))
-                connection.write(b"Withdraw")
-                connection.flush()
+            command = eval("traffic." + predicted["label"] + "_action")()
         else:
-            if traffic.state["red_light"]:
-                connection.write(struct.pack('<L', 4))
-                connection.write(b"stop")
-                connection.flush()
-            else:
-                connection.write(struct.pack('<L', 9))
-                connection.write(b"Normal_GO")
-                connection.flush()
-
+            command = traffic.none_traffic_object_action(distance)
+        send_action(command.name)
         connection.flush()
 finally:
     connection.close()
     server_socket.close()
 
+#enum z komendami jakie można wysłać - gotowe
+#wtraffic_objects determining which command should be perform on client gotowe
+#server handle this command from traffic object id and send it using send_action function

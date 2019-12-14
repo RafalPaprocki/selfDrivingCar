@@ -1,0 +1,36 @@
+item{
+	id:1
+	name:"green_light"
+}
+item{
+	id:2
+	name:"red_light"	
+}
+item{
+	id:3
+	name:"right"
+}
+item{
+	id:4
+	name:"left"
+}
+item{
+	id:5
+	name:"stop_sign"
+}
+item{
+	id:6
+	name:"person"
+}
+item{
+	id:7
+	name:"car"
+}
+item{
+	id:8
+	name:"limit40"
+}
+item{
+	id:9
+	name:"end40limit"
+}

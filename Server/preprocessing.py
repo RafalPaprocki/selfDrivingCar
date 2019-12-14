@@ -12,9 +12,9 @@ tf.gfile = tf.io.gfile
 
 class SignDetector:
     def __init__(self, path_to_labels, model_name ):
-        self.path_to_labels = 'C:\\Users\\rafpa\Downloads\\models\\research\object_detection\\training/object-detection3.pbtxt'
+        self.path_to_labels = path_to_labels
         self.category_index = label_map_util.create_category_index_from_labelmap(self.path_to_labels, use_display_name=True)
-        self.model_name = 'C:\\Users\\rafpa\Downloads\\models\\research\object_detection\\sign_graph_rpi'
+        self.model_name = model_name
         self.model = self.load_model(self.model_name)
 
     def load_model(self, model_name):
