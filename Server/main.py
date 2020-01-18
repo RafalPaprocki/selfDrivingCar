@@ -4,10 +4,10 @@ from traffic_objects import Traffic
 import time
 import cv2
 signDetector = SignDetector('object-detection3.pbtxt',
-                            'sign_graph_rpi')
+                            'sign_graph_rpi_allall_cocov2_33749')
 server = Server()
 server.start_server("0.0.0.0", 8000)
-traffic = Traffic(server.connection)
+traffic = Traffic()
 
 try:
     start = time.time()

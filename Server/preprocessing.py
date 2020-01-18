@@ -68,7 +68,8 @@ class SignDetector:
     def detect_objects(self, image):
         output_dict = self.show_inference(self.model, image)
         detection_scores = [s for s in output_dict['detection_scores'] if s > 0.5]
-        detected_labels = [self.category_index[l]['name'] for l in output_dict['detection_classes'][0:len(detection_scores)]]
+        detected_labels = [self.category_index[l]['name'] for l in
+                           output_dict['detection_classes'][0:len(detection_scores)]]
         boxes = output_dict['detection_boxes'][0:len(detection_scores)]
         for box in boxes:
             box[0] = box[0] * 380
@@ -84,3 +85,4 @@ class SignDetector:
                 break
 
         return predicted
+

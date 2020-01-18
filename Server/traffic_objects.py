@@ -9,8 +9,7 @@ class SpeedState(enum.Enum):
 
 
 class Traffic:
-    def __init__(self, connection):
-        self.connection = connection
+    def __init__(self):
         self.state = {'red_light': False, "speed": SpeedState.Normal_GO, "stop:": False}
 
     def red_light_action(self):
@@ -67,7 +66,7 @@ class Traffic:
         if self.state["red_light"]:
             return Commands.Stop
         else:
-            if distance < 10:
+            if distance < 11:
                 return Commands.Withdraw
             else:
                 return Commands[self.state["speed"].name]

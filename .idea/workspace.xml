@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55248458-994f-4cc2-b84e-3c8e99bd3b6f" name="Default Changelist" comment="" />
+    <list default="true" id="55248458-994f-4cc2-b84e-3c8e99bd3b6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/SelfDrivingServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/traffic_objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/traffic_objects.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +21,71 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RaspiClient/client_socket.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/traffic_objects.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/commands.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Server/preprocessing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,7 +103,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -36,14 +112,17 @@
         <option value="$PROJECT_DIR$/traffic_objects.py" />
         <option value="$PROJECT_DIR$/server.py" />
         <option value="$PROJECT_DIR$/preprocessing.py" />
+        <option value="$PROJECT_DIR$/Server/server.py" />
+        <option value="$PROJECT_DIR$/Server/main.py" />
+        <option value="$PROJECT_DIR$/Server/preprocessing.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="243" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="x" value="170" />
+    <option name="y" value="92" />
+    <option name="width" value="1026" />
+    <option name="height" value="554" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -51,8 +130,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SelfDrivingServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SelfDrivingServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelfDrivingServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SelfDrivingServer" type="462c0819:PsiDirectoryNode" />
+              <item name="RaspiClient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelfDrivingServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SelfDrivingServer" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,16 +254,21 @@
       <workItem from="1576140811595" duration="16678000" />
       <workItem from="1576254608244" duration="10004000" />
       <workItem from="1576265333550" duration="359000" />
+      <workItem from="1576602587294" duration="1094000" />
+      <workItem from="1576603872500" duration="140000" />
+      <workItem from="1576958039316" duration="1736000" />
+      <workItem from="1577026023084" duration="1197000" />
+      <workItem from="1577180075016" duration="159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83138000" />
+    <option name="totallyTimeSpent" value="87464000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="243" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3698941" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11875945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -178,8 +282,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32850242" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3547655" side_tool="true" weight="0.4589372" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49573562" weight="0.2173913" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49946696" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49573562" visible="true" weight="0.17230274" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49946696" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -244,12 +348,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ree.pbtxt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frozen_inference_graph.pb">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ree.pbtxt" />
+    <entry file="file://$PROJECT_DIR$/frozen_inference_graph.pb" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -274,29 +374,315 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.py">
+    <entry file="file://$PROJECT_DIR$/server.py" />
+    <entry file="file://$PROJECT_DIR$/preprocessing.py" />
+    <entry file="file://$PROJECT_DIR$/traffic_objects.py" />
+    <entry file="file://$PROJECT_DIR$/Server/frozen_inference_graph.pb">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="uml://Python/Server.preprocessing.SignDetector">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>Server.preprocessing.SignDetector</OriginalElement>
+          <nodes>
+            <node x="49.5" y="0.0">object</node>
+            <node x="0.0" y="432.0">Server.preprocessing.SignDetector</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Server.preprocessing.SignDetector" target="object">
+              <point x="0.0" y="-70.0" />
+              <point x="0.0" y="191.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9628378378378378" x="-16.0" y="229.0" />
+          <SelectedNodes>
+            <node>Server.preprocessing.SignDetector</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/rafpa/Desktop/Projekty/SelfDrivingServer/Server">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/Server</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="413.0" y="285.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/Server.server.Server">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>Server.server.Server</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">object</node>
+            <node x="9.5" y="432.0">Server.server.Server</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Server.server.Server" target="object">
+              <point x="0.0" y="-70.0" />
+              <point x="0.0" y="191.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9628378378378378" x="-66.0" y="239.0" />
+          <SelectedNodes>
+            <node>Server.server.Server</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Users/rafpa/Desktop/Projekty/SelfDrivingServer/Server/preprocessing.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/rafpa/Desktop/Projekty/SelfDrivingServer/Server/preprocessing.py</OriginalElement>
+          <nodes>
+            <node x="49.5" y="0.0">object</node>
+            <node x="0.0" y="432.0">Server.preprocessing.SignDetector</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Server.preprocessing.SignDetector" target="object">
+              <point x="0.0" y="-70.0" />
+              <point x="0.0" y="191.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9628378378378378" x="-16.0" y="264.0" />
+          <SelectedNodes>
+            <node>Server.preprocessing.SignDetector</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Users/rafpa/Desktop/Projekty/SelfDrivingServer/Server/commands.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/rafpa/Desktop/Projekty/SelfDrivingServer/Server/commands.py</OriginalElement>
+          <nodes>
+            <node x="321.0" y="820.0">Server.commands.Commands</node>
+            <node x="0.0" y="0.0">enum.EnumMeta</node>
+            <node x="286.0" y="476.0">enum.Enum</node>
+            <node x="522.0" y="22.0">object</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="enum.Enum" target="object">
+              <point x="78.75" y="-147.0" />
+              <point x="522.25" y="451.0" />
+              <point x="636.0" y="451.0" />
+              <point x="0.0" y="191.0" />
+            </edge>
+            <edge source="Server.commands.Commands" target="enum.Enum">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="147.0" />
+            </edge>
+            <edge source="enum.Enum" target="enum.EnumMeta">
+              <point x="-78.75" y="-147.0" />
+              <point x="364.75" y="451.0" />
+              <point x="251.0" y="451.0" />
+              <point x="0.0" y="213.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9551724137931034" x="215.0" y="525.0" />
+          <SelectedNodes>
+            <node>Server.commands.Commands</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Users/rafpa/Desktop/Projekty/SelfDrivingServer/Server/main.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/rafpa/Desktop/Projekty/SelfDrivingServer/Server/main.py</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Users/rafpa/Desktop/Projekty/SelfDrivingServer/Server/server.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/rafpa/Desktop/Projekty/SelfDrivingServer/Server/server.py</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">object</node>
+            <node x="9.0" y="432.0">Server.server.Server</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Server.server.Server" target="object">
+              <point x="0.0" y="-70.0" />
+              <point x="0.0" y="191.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9628378378378378" x="-66.0" y="264.0" />
+          <SelectedNodes>
+            <node>Server.server.Server</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/rafpa/Desktop/Projekty/SelfDrivingServer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/rafpa/Desktop/Projekty/SelfDrivingServer/RaspiClient">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/RaspiClient</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Users/rafpa/Desktop/Projekty/SelfDrivingServer/RaspiClient/camera_pi.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/rafpa/Desktop/Projekty/SelfDrivingServer/RaspiClient/camera_pi.py</OriginalElement>
+          <nodes>
+            <node x="0.0" y="432.0">RaspiClient.camera_pi.Camera</node>
+            <node x="198.25" y="0.0">object</node>
+            <node x="302.0" y="443.0">RaspiClient.camera_pi.StreamingOutput</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="RaspiClient.camera_pi.StreamingOutput" target="object">
+              <point x="0.0" y="-37.0" />
+              <point x="483.5" y="407.0" />
+              <point x="369.25" y="407.0" />
+              <point x="57.0" y="191.0" />
+            </edge>
+            <edge source="RaspiClient.camera_pi.Camera" target="object">
+              <point x="0.0" y="-48.0" />
+              <point x="141.0" y="407.0" />
+              <point x="255.25" y="407.0" />
+              <point x="-57.0" y="191.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="164.0" y="219.0" />
+          <SelectedNodes>
+            <node>RaspiClient.camera_pi.StreamingOutput</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="199" column="17" selection-start-line="199" selection-start-column="17" selection-end-line="199" selection-end-column="17" />
+        <state relative-caret-position="240">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessing.py">
+    <entry file="file://$PROJECT_DIR$/RaspiClient/client_socket.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/traffic_objects.py">
+    <entry file="file://$PROJECT_DIR$/Server/traffic_objects.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state>
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/commands.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

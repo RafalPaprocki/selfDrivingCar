@@ -37,8 +37,3 @@ class Server:
         self.connection.close()
         self.server_socket.close()
 
-
-
-#enum z komendami jakie można wysłać - gotowe
-#wtraffic_objects determining which command should be perform on client gotowe
-#server handle this command from traffic object id and send it using send_action function
