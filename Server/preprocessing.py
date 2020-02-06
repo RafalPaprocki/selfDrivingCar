@@ -80,7 +80,7 @@ class SignDetector:
         predicted = None
 
         for label, score, box in zip(detected_labels, detection_scores, boxes):
-            if box[2] > 100:
+            if box[2] > 175: #było 100
                 predicted = {"detection_scores": score, "box": box, "label": label}
                 break
 
