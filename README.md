@@ -12,8 +12,8 @@ to server. As a response, server send acction (run, stop, turn right etc) that s
 Application receive images and sensors data from client. Then it use pretrained model to detect objects (such as road signs, traffic lights, cars or person).
 Based on detected objects and sensors data, application determines action, and send it back to client.
 
-## Robot.
+## Robot
 ![Robot image](/images/robot_conctruct.jpg)
 
-## Objects detected from image.
+## Objects detected from image
 ![Detected objects](images/objects_detected_by_camera.jpg)
